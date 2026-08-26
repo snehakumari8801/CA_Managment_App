@@ -38,14 +38,14 @@ import TaxReturnList from "./pages/Tax/TaxReturnList";
 import TaxReturnForm from "./pages/Tax/TaxReturnForm";
 
 // Invoice
-import InvoiceList from "./pages/Invoices/InvoiceList";
-import InvoiceForm from "./pages/Invoices/InvoiceForm";
+// import InvoiceList from "./pages/Invoices/InvoiceList";
+// import InvoiceForm from "./pages/Invoices/InvoiceForm";
 
 // Payments
-import PaymentList from "./pages/Payments/PaymentList";
+// import PaymentList from "./pages/Payments/PaymentList";
 
 // Reports
-import Reports from "./pages/Reports/Reports";
+// import Reports from "./pages/Reports/Reports";
 
 function App() {
   return (
@@ -91,14 +91,14 @@ function App() {
           <Route path="/tax/add" element={<TaxReturnForm />} />
 
           {/* Invoices */}
-          <Route path="/invoices" element={<InvoiceList />} />
-          <Route path="/invoices/add" element={<InvoiceForm />} />
+          {/* <Route path="/invoices" element={<InvoiceList />} />
+          <Route path="/invoices/add" element={<InvoiceForm />} /> */}
 
           {/* Payments */}
-          <Route path="/payments" element={<PaymentList />} />
+          {/* <Route path="/payments" element={<PaymentList />} /> */}
 
           {/* Reports */}
-          <Route path="/reports" element={<Reports />} />
+          {/* <Route path="/reports" element={<Reports />} /> */}
         </Route>
       </Route>
 

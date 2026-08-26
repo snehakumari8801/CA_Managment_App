@@ -3,7 +3,7 @@ import StatCard from "../../components/StatCard";
 function Dashboard() {
   return (
     <div>
-
+      <h1>DASHBOARD</h1>
       <div className="page-header">
         <div>
           <h1>Dashboard</h1>
