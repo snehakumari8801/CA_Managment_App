@@ -52,6 +52,12 @@ function Sidebar() {
       path: "/reports",
       icon: "📈",
     },
+
+    {
+      name: "Profile",
+      path: "/profile",
+      icon: "📈",
+    },
   ];
 
   return (
@@ -85,7 +91,7 @@ function Sidebar() {
       </nav>
 
       <div className="sidebar-footer">
-        <small>CA Management v1.0</small>
+        <small>CA Management</small>
       </div>
     </aside>
   );
