@@ -133,8 +133,9 @@ function ClientForm() {
               <input
                 name="gstin"
                 value={formData.gstin}
+                                placeholder="GSTIN"
+
                 onChange={handleChange}
-                placeholder="GSTIN"
               />
             </div>
 
