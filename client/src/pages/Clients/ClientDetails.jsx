@@ -5,8 +5,8 @@ function ClientDetails() {
 
   const client = {
     id,
-    name: "Rahul Sharma",
-    email: "rahul@gmail.com",
+    name: "Sneha kumari",
+    email: "sneha@gmail.com",
     phone: "9876543210",
     type: "Individual",
     pan: "ABCDE1234F",
