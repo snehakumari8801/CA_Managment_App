@@ -140,6 +140,17 @@ function TaskForm() {
             </button>
 
             <button
+              type="button"
+              className="btn btn-secondary"
+              onClick={() =>
+                navigate("/tasks")
+              }
+            >
+              Add
+            </button>
+
+
+            <button
               type="submit"
               className="btn btn-primary"
             >
