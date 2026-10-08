@@ -34,10 +34,10 @@ export function AuthProvider({ children }) {
   return (
     <AuthContext.Provider
       value={{
+        isAuthenticated: true, 
         user,
         login,
-        logout,
-        isAuthenticated: true, 
+        logout
       }}
     >
       {children}
