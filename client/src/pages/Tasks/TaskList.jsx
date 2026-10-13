@@ -53,10 +53,11 @@ function TaskList() {
           <tbody>
             {tasks.map((task) => (
               <tr key={task.id}>
+                <td>{task.priority}</td>
                 <td>{task.title}</td>
                 <td>{task.client}</td>
                 <td>{task.assigned}</td>
-                <td>{task.priority}</td>
+                
                 <td>{task.status}</td>
               </tr>
             ))}
