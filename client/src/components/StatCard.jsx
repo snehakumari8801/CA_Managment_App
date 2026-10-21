@@ -4,6 +4,9 @@ function StatCard({
   icon,
   color = "blue",
 }) {
+
+  const theme = colors[color] || colors.blue;
+
   const colors = {
     blue: {
       bg: "bg-blue-50",
@@ -27,7 +30,6 @@ function StatCard({
     },
   };
 
-  const theme = colors[color] || colors.blue;
 
   return (
     <div
