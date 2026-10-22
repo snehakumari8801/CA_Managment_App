@@ -13,37 +13,7 @@ function Dashboard() {
         </div>
       </div>
 
-      <div className="stats-grid">
-
-        <StatCard
-          title="Total Clients"
-          value="125"
-          icon="👥"
-          color="blue"
-        />
-
-        <StatCard
-          title="Employees"
-          value="18"
-          icon="👨‍💼"
-          color="green"
-        />
-
-        <StatCard
-          title="Pending Tasks"
-          value="32"
-          icon="✅"
-          color="orange"
-        />
-
-        <StatCard
-          title="Pending Payments"
-          value="₹45,000"
-          icon="💳"
-          color="purple"
-        />
-
-      </div>
+    
 
       <div className="dashboard-grid">
 
@@ -99,6 +69,38 @@ function Dashboard() {
             <span>30 Sep 2026</span>
           </div>
         </div>
+
+      </div>
+
+        <div className="stats-grid">
+
+        <StatCard
+          title="Total Clients"
+          value="125"
+          icon="👥"
+          color="blue"
+        />
+
+        <StatCard
+          title="Employees"
+          value="18"
+          icon="👨‍💼"
+          color="green"
+        />
+
+        <StatCard
+          title="Pending Tasks"
+          value="32"
+          icon="✅"
+          color="orange"
+        />
+
+        <StatCard
+          title="Pending Payments"
+          value="₹45,000"
+          icon="💳"
+          color="purple"
+        />
 
       </div>
 
