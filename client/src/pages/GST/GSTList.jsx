@@ -53,9 +53,9 @@ function GSTList() {
           <tbody>
             {gstRecords.map((item) => (
               <tr key={item.id}>
+                <td>{item.type}</td>
                 <td>{item.client}</td>
                 <td>{item.period}</td>
-                <td>{item.type}</td>
                 <td>{item.dueDate}</td>
                 <td>{item.status}</td>
               </tr>
